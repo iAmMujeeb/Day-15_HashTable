@@ -1,16 +1,16 @@
 package wordfreq;
 
-public class MyNode<K,V> {
+public class MyNode<K, V> {
 
     K key;
 
     V value;
-    MyNode<K,V> next;
+    MyNode<K, V> next;
 
     public MyNode() {
     }
 
-    public MyNode(K key,V value){
+    public MyNode(K key, V value) {
         this.key = key;
         this.value = value;
     }

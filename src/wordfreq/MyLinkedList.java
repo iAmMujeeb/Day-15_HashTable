@@ -73,8 +73,8 @@ public class MyLinkedList<K, V> {
         return null;
     }
 
-    public boolean insertAfter(K searchData, K insertKey,V insertValue) {
-        MyNode<K, V> newNode = new MyNode<>(insertKey,insertValue);
+    public boolean insertAfter(K searchData, K insertKey, V insertValue) {
+        MyNode<K, V> newNode = new MyNode<>(insertKey, insertValue);
         MyNode<K, V> searchedNode = search(searchData);
         if (searchedNode != null) {
             newNode.next = searchedNode.next;

@@ -33,7 +33,7 @@ public class HashTable<K, V> {
             myLinkedList.add(key, value);
         } else {
             MyNode<K, V> currentNode = myLinkedList.search(key);
-            if(currentNode != null)
+            if (currentNode != null)
                 currentNode.value = value;
             else
                 myLinkedList.add(key, value);
